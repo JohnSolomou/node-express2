@@ -1,0 +1,37 @@
+Express Apprentice 2
+A developer who can implement build backend applications using NodeJS and Express.
+
+Master the following skills:
+Start a NodeJS application that uses Express: must install express (npm i express) then require it and call it like this:
+const express = require("express") const app = require("express"())
+Explain what ExpressJS is and what purpose it serves
+  -Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+  -Express is a minimal, open source and flexible Node.js web app framework designed to make developing websites, web apps, & API's much easier
+  -Express provides the optimal building blocks like routing, middleware, and other components to get an application working quickly.
+Build HTTP-based API endpoints with Express (see index.js for code.)
+Apply best practices in folder/file structure in an Express application 
+  -you add all folder structures in the src file folders like configs,controllers,middlewares,routes,services,models, and utils (reference go to https://blog.logrocket.com/organizing-express-js-project-structure-better-productivity/)
+
+Validate incoming HTTP requests with middleware
+(reference https://dev.to/singh1114/validate-your-request-parameters-using-validation-middleware-in-node-js-2gfo)
+Route requests to different controller logic based on the shape of the request url:
+Implement routes with parameters and use them to influence output:
+app.get('/:id', function(req, res){
+res.send('The id you specified is ' + req.params.id);
+});
+app.listen(3000);
+Access querystring values and use them to influence output:
+
+Separate logic code from routes using modules and imports:
+(see wiki.js)
+Render HTML from a template and json data 
+
+Serve non-template static files with Express
+
+Receive form data from HTTP request and use it to influence output
+
+Debug Express application code with breakpoints
+
+Allow CORS requests from all or specific origins
+
+Utilize 3rd party plugins with an Express application
