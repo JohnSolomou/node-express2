@@ -23,7 +23,7 @@ app.listen(3000);
 Access querystring values and use them to influence output:
 
 Separate logic code from routes using modules and imports:
-(see wiki.js)
+(see wiki.js) this is when you take the handler (the function part of the route ) and separate it to another file then you require it in the router file and pass it in as a variable 
 Render HTML from a template and json data 
 
 Serve non-template static files with Express
